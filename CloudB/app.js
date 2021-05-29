@@ -20,10 +20,10 @@ app.use(bodyParser.json())
 app.listen(3000, console.log("Server Connected"));
 //create db connection
 var con = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "nisal",
-    database: "distro"
+    host: "",
+    user: "",
+    password: "",
+    database: ""
 });
 
 app.use(function (req, res, next) {
