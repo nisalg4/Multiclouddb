@@ -27,10 +27,10 @@ app.use(function (req, res, next) {
 /*
 //create db connection
 var con = mysql.createConnection({
-  host: "localhost",
-  user: "demouser",
-  password: "demopassword",
-  database: "distro"
+  host: "",
+  user: "",
+  password: "",
+  database: ""
 });
 
 //This stores the cloud list and if theres new clouds just add to this
